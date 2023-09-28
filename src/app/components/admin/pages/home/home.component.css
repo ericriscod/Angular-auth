@@ -1,0 +1,6 @@
+:host strong {
+    font-weight: 700;
+    color: red;
+    font-size: 25px;
+    padding: 25px;
+}

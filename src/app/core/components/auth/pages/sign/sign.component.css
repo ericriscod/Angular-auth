@@ -1,0 +1,40 @@
+:host form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:host form,
+label,
+input {
+    width: 100%;
+}
+
+:host label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+:host label img {
+    margin-right: 7px;
+}
+
+:host input {
+    height: 50px;
+    border: none;
+    font-size: 18px;
+}
+
+:host span {
+    margin-top: 20px;
+    font-size: 18px;
+    color: red;
+}
+
+:host input::placeholder {
+    color: black;
+}
